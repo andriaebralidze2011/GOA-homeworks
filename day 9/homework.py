@@ -20,13 +20,13 @@ else:
 
 grade = int(input("please enter your grade: "))
 
-if grade > 90 and grade < 100:
+if grade > 90 and grade <= 100:
     print("A")
-elif grade > 80 and grade < 89:
+elif grade > 80 and grade <= 89:
     print("B")
-elif grade > 70 and grade < 79:
+elif grade > 70 and grade <= 79:
     print("C")
-elif grade > 60 and grade < 69:
+elif grade > 60 and grade <= 69:
     print("D")
 else:
     print("F")
@@ -38,10 +38,10 @@ secret_number = 7
 guess = int(input("Guess the number: "))
 
 while guess != secret_number:
-    print("Wrong number! Try again.")
+    print("Wrong number Try again")
     guess = int(input("Guess the number: "))
 
-print("You guessed the number!")
+print("You guessed the number")
 
 # 5) მომხმარებელს შემოაყვანინეთ 2 რიცხვი და ერთი რაიმე ოპერატორი (+, -, *, /) და ოპერატორიდან გამომდინარე მომხმარებელს გამოუტანეთ ტერმინალში მათემატიკური ოპერაციის შედეგი ამ ორ რიცხვს შორის.
 
