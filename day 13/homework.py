@@ -57,12 +57,5 @@ print("smallest:", small)
 
 arr = [1, 2, 3, 4, 5]
 
-i = 0
-j = len(arr) - 1
-
-while i < j:
-    arr[i], arr[j] = arr[j], arr[i]
-    i += 1
-    j -= 1
-
-print(arr)
+arr1 = arr[::-1]
+print(arr1)
