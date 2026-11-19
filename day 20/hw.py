@@ -61,3 +61,34 @@ if colors_input2 in colors:
     print("second color is in set")
 else:
     print("second color is not in set")
+
+# 7)
+
+def distinct(seq):
+    result = []
+    for num in seq:
+        if num not in result:
+            result.append(num)
+    return result
+
+# 8)
+
+def check(seq, elem):
+    if elem in seq:
+        return True
+    else:
+        return False
+
+# 9)
+
+def find_needle(haystack):
+    position = haystack.index("needle")
+    return f"found the needle at position {position}"
+
+# 10)
+
+def sum_array(a):
+    total = 0
+    for num in a:
+        total += num
+    return total
